@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Projet_infographie - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\habid\LOCALS~1\Temp\RSP60B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Projet_infographie.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\AdvGlutWnd.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\BSpline.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\CameraGL.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\CouleurGL.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\CRU.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\cube.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\cylindre.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Droite3D.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\FenetreGL.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\GlutMaster.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\GlutWindow.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Jonction.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\main.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Module.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\ObjetGL.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\OVI.CPP"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Plan3D.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Point2D.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Point3D.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Pointctrl.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Police.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Principale.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Propulsion.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Rectangle.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Scene.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\selection3D.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Sphere.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Station.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Trajectoire.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\TransformationGL.cpp"
+"Y:\ArrajoulAlali\Projet_infographie\Projet_infographie\Projet_infographie\Projet_infographie\Vecteur.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\habid\LOCALS~1\Temp\RSP60B.tmp" 
+Creating temporary file "C:\DOCUME~1\habid\LOCALS~1\Temp\RSP60C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Projet_infographie.pdb" /debug /machine:I386 /out:"Debug/Projet_infographie.exe" /pdbtype:sept 
+.\Debug\AdvGlutWnd.obj
+.\Debug\BSpline.obj
+.\Debug\CameraGL.obj
+.\Debug\CouleurGL.obj
+.\Debug\CRU.obj
+.\Debug\cube.obj
+.\Debug\cylindre.obj
+.\Debug\Droite3D.obj
+.\Debug\FenetreGL.obj
+.\Debug\GlutMaster.obj
+.\Debug\GlutWindow.obj
+.\Debug\Jonction.obj
+.\Debug\main.obj
+.\Debug\Module.obj
+.\Debug\ObjetGL.obj
+.\Debug\OVI.OBJ
+.\Debug\Plan3D.obj
+.\Debug\Point2D.obj
+.\Debug\Point3D.obj
+.\Debug\Pointctrl.obj
+.\Debug\Police.obj
+.\Debug\Principale.obj
+.\Debug\Propulsion.obj
+.\Debug\Rectangle.obj
+.\Debug\Scene.obj
+.\Debug\selection3D.obj
+.\Debug\Sphere.obj
+.\Debug\Station.obj
+.\Debug\Trajectoire.obj
+.\Debug\TransformationGL.obj
+.\Debug\Vecteur.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\habid\LOCALS~1\Temp\RSP60C.tmp"
+<h3>Output Window</h3>
+Compiling...
+AdvGlutWnd.cpp
+BSpline.cpp
+y:\arrajoulalali\projet_infographie\projet_infographie\projet_infographie\projet_infographie\bspline.cpp(79) : warning C4018: '==' : signed/unsigned mismatch
+CameraGL.cpp
+CouleurGL.cpp
+CRU.cpp
+cube.cpp
+cylindre.cpp
+Droite3D.cpp
+FenetreGL.cpp
+GlutMaster.cpp
+GlutWindow.cpp
+Jonction.cpp
+main.cpp
+Module.cpp
+ObjetGL.cpp
+OVI.CPP
+Plan3D.cpp
+Point2D.cpp
+Point3D.cpp
+Pointctrl.cpp
+Police.cpp
+Principale.cpp
+Propulsion.cpp
+Rectangle.cpp
+Scene.cpp
+selection3D.cpp
+Sphere.cpp
+Station.cpp
+Trajectoire.cpp
+TransformationGL.cpp
+Vecteur.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Projet_infographie.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

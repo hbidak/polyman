@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{6159F190-27A2-4F27-A6A2-59B5783E279C}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\Projet_infographie.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Release\Projet_infographie.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0c0c</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Projet_infographie.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Release\Projet_infographie.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Projet_infographie.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Debug\Projet_infographie.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0c0c</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Projet_infographie.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Debug\Projet_infographie.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvGlutWnd.cpp" />
+    <ClCompile Include="BSpline.cpp" />
+    <ClCompile Include="CameraGL.cpp" />
+    <ClCompile Include="CouleurGL.cpp" />
+    <ClCompile Include="CRU.cpp" />
+    <ClCompile Include="cube.cpp" />
+    <ClCompile Include="cylindre.cpp" />
+    <ClCompile Include="Droite3D.cpp" />
+    <ClCompile Include="FenetreGL.cpp" />
+    <ClCompile Include="GlutMaster.cpp" />
+    <ClCompile Include="GlutWindow.cpp" />
+    <ClCompile Include="Jonction.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Module.cpp" />
+    <ClCompile Include="ObjetGL.cpp" />
+    <ClCompile Include="OVI.CPP" />
+    <ClCompile Include="Plan3D.cpp" />
+    <ClCompile Include="Point2D.cpp" />
+    <ClCompile Include="Point3D.cpp" />
+    <ClCompile Include="Pointctrl.cpp" />
+    <ClCompile Include="Police.cpp" />
+    <ClCompile Include="Principale.cpp" />
+    <ClCompile Include="Propulsion.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="selection3D.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Station.cpp" />
+    <ClCompile Include="Trajectoire.cpp" />
+    <ClCompile Include="TransformationGL.cpp" />
+    <ClCompile Include="Vecteur.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvGlutWnd.h" />
+    <ClInclude Include="BSpline.h" />
+    <ClInclude Include="CameraGL.h" />
+    <ClInclude Include="Constantes.h" />
+    <ClInclude Include="CouleurGL.h" />
+    <ClInclude Include="CRU.h" />
+    <ClInclude Include="cube.h" />
+    <ClInclude Include="cylindre.h" />
+    <ClInclude Include="Droite3D.h" />
+    <ClInclude Include="FenetreGL.h" />
+    <ClInclude Include="GlutMaster.h" />
+    <ClInclude Include="GlutWindow.h" />
+    <ClInclude Include="Jonction.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="Module.h" />
+    <ClInclude Include="ObjetGL.h" />
+    <ClInclude Include="OVI.H" />
+    <ClInclude Include="Plan3D.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Point2D.h" />
+    <ClInclude Include="Point3D.h" />
+    <ClInclude Include="Pointctrl.h" />
+    <ClInclude Include="Police.h" />
+    <ClInclude Include="Principale.h" />
+    <ClInclude Include="Propulsion.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rgbcolor.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="selection3D.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Station.h" />
+    <ClInclude Include="temps.h" />
+    <ClInclude Include="Trajectoire.h" />
+    <ClInclude Include="TransformationGL.h" />
+    <ClInclude Include="Vecteur.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
